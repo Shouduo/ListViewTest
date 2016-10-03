@@ -28,7 +28,7 @@ public class FruitAdapter extends ArrayAdapter<Fruit> {
         View view;
         ViewHolder viewHolder;
         if (convertView == null) {
-            view = LayoutInflater.from(getContext()).inflate(resourceId, null);
+            view = LayoutInflater.from(getContext()).inflate(resourceId, null); //通过LayoutInflater的from()方法可以构建出一个LayoutInflater对象，然后调用inflate()方法就可以动态加载一个布局文件
             viewHolder = new ViewHolder();
             viewHolder.fruitImage = (ImageView) view.findViewById(R.id.fruit_image);
             viewHolder.fruitName = (TextView) view.findViewById(R.id.fruit_name);
