@@ -5,14 +5,15 @@
 
     <ImageView
         android:id="@+id/fruit_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
 
     <TextView
         android:id="@+id/fruit_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginLeft="10dip" />
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="20dp" />
 
 </LinearLayout>
